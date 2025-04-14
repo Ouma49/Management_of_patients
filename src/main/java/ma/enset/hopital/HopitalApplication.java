@@ -23,14 +23,14 @@ public class HopitalApplication implements CommandLineRunner {
     }
 
 
-    @Override
+    //@Override
     public void run(String... args) throws Exception {
 
-        patientRepository.save(new Patient(null, "Oumayma", new Date(), false, 23));
-        patientRepository.save(new Patient(null, "Mehdi", new Date(), false, 24));
-        patientRepository.save(new Patient(null, "Hajar", new Date(), false, 25));
-        patientRepository.save(new Patient(null, "Naima", new Date(), false, 26));
-        patientRepository.save(new Patient(null, "Mohammed", new Date(), false, 27));
+        patientRepository.save(new Patient(null, "Oumayma", new Date(), false, 230));
+        patientRepository.save(new Patient(null, "Mehdi", new Date(), false, 249));
+        patientRepository.save(new Patient(null, "Hajar", new Date(), false, 255));
+        patientRepository.save(new Patient(null, "Naima", new Date(), false, 206));
+        patientRepository.save(new Patient(null, "Mohammed", new Date(), false, 127));
 
     }
 }
